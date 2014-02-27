@@ -17,11 +17,68 @@ html {
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
-    
     font-size: 100%;
+    font-family: Georgia, Palatino, Times, serif;
 }
 
 img {
 	width: 100%;
-    display: block;
+    display: block;   
 }
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #000;
+    background-color: #9CF;
+}
+
+.masthead {
+    background-color: #003;
+    overflow: hidden;
+}    
+
+.logo {
+    height: 4.5rem;
+    width: auto;
+    margin: .5rem 5%;
+}
+
+.billboard {
+    overflow: hidden;
+    background-image: url(../images/origami.jpg);
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 60rem;
+}
+
+h1 {
+    margin: 14rem 0 10%;
+    background-color: rgba(255, 153, 204, .7);
+    font-weight: normal;
+    font-size: 2rem;
+    color: #000;
+    letter-spacing: -0.25rem
+    padding: 2rem 5%;
+    text-align:center;
+}
+
+article {
+    margin: 0;
+    padding: 1rem 5%;
+    overflow: hidden;
+}
+
+h2 {
+    color: 
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
