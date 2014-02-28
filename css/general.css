@@ -103,7 +103,7 @@ blockquote p {
     font-size: .875rem;
     color: #FFF;
     padding: 1.5rem;
-    margin: auto 2rem auto -2rem;
+    margin: 3rem 2rem 3rem -2rem;
 }
 
 blockquote p:before {
@@ -150,14 +150,18 @@ h2 {
     font-family: Helvetica, Trebuchet, sans-serif;
     font-weight: bold;
     font-size: 1.5rem;
-    color: #000;
+    text-shadow: #000 0.1em 0.1em 0.3em;
+    color: #FFF;
     margin: 0;
     border-top: 1px;
 }
 
 hr {
     color: #000;
-    width: 75%;
+    height: 5px;
+    width: 65%;
+    background: #000;
+    margin: -0.8rem auto 2rem;
 }
 
 p {
@@ -168,10 +172,6 @@ p {
     font-weight: lighter;
     font-size: 0.9rem;
     line-height: 1.2rem;
-}
-
-img {
-    border-radius: 1rem;
 }
 
 figure {
@@ -186,17 +186,29 @@ figcaption {
     margin-bottom: 1rem
 }
 
+.numero {
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+img {
+    border-radius: 1rem;
+    margin: .5rem auto;
+}
+
 footer {
     background-color: #000;
     overflow: hidden;
 }
 
 footer p {
-    color: #FFF;
+    color: #9CF;
     font-weight: lighter;
     font-size: 0.9rem;
     line-height: 1.2rem;
     overflow: hidden;
+    margin: 2rem 1rem;
 }
 
 footer a {
